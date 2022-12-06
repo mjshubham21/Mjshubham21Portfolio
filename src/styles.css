@@ -47,6 +47,28 @@ select {
   font: inherit;
 }
 
+/* Nav */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  height: 2rem;
+  background-color: black;
+}
+nav a {
+  color: rgb(248, 248, 248);
+  text-decoration: none;
+}
+.logo {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  display: block;
+}
+.nav-items li {
+  display: flex;
+  list-style: none;
+}
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {

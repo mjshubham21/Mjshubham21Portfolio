@@ -1,11 +1,10 @@
 import { useState } from "react";
-
 import React from "react";
-import NavBar from "./components/NavBar";
-import Intro from "./components/Intro";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import NavBar from "./NavBar";
+import Intro from "./Intro";
+import Portfolio from "./Portfolio";
+import Contact from "./Contact";
+import Footer from "./Footer";
 function App() {
   const [count, setCount] = useState(0);
 
