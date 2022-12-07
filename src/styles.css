@@ -52,22 +52,31 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
-  height: 2rem;
+  padding: 1.5rem;
+  height: 1.5rem;
   background-color: black;
 }
-nav a {
-  color: rgb(248, 248, 248);
+
+.itemL a {
   text-decoration: none;
+  color: aliceblue;
 }
-.logo {
-  color: rgb(255, 255, 255);
-  font-size: 1rem;
-  display: block;
+.itemL:hover {
+  transform: translateY(-1.5px);
 }
-.nav-items li {
+
+.itemR ul {
   display: flex;
+  flex-direction: row;
   list-style: none;
+}
+.itemR ul a {
+  text-decoration: none;
+  color: aliceblue;
+  margin: 0.7rem;
+}
+.itemR ul a:hover {
+  color: rgb(6, 6, 200);
 }
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
