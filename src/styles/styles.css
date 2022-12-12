@@ -233,21 +233,21 @@ nav {
   transform: scale(1.02);
 }
 
-.data-card h3:hover {
+.data-card:hover h3 {
   color: #ffffff;
   border-bottom-color: #a754c4;
 }
 
-.data-card h4:hover {
+.data-card:hover h4 {
   color: #ffffff;
 }
 
-.data-card p:hover {
+.data-card:hover p {
   opacity: 1;
   transform: none;
 }
 
-.data-card .link-text:hover {
+.data-card:hover .link-text {
   color: #ffffff;
 }
 
