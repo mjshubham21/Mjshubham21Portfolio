@@ -3,7 +3,7 @@ import React from "react";
 function Portfolio() {
   return (
     <>
-      <div className="projects"> My Projects.</div>
+      <div className="projectTitle"> My Projects.</div>
       <section class="page-contain">
         <a href="#projects" class="data-card">
           <h3>01</h3>
@@ -13,7 +13,7 @@ function Portfolio() {
             href="https://github.com/mjshubham21/Mjshubham21Portfolio"
             target="_blank"
           >
-            <button className="btn">GitHub</button>{" "}
+            <button className="gitbtn">GitHub</button>{" "}
           </a>
         </a>
       </section>

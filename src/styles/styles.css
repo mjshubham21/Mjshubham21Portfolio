@@ -173,6 +173,12 @@ nav {
   font-family: "Open Sans", sans-serif;
 }
 
+.projectTitle {
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  position: absolute;
+  font-size: 2rem;
+}
 .data-card {
   display: flex;
   flex-direction: column;
@@ -245,6 +251,21 @@ nav {
 .data-card:hover p {
   opacity: 1;
   transform: none;
+}
+
+.gitbtn {
+  opacity: 0;
+}
+.data-card:hover .gitbtn {
+  opacity: 1;
+  font-size: 0.7rem;
+  margin: 0 1rem 0 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgb(148, 12, 163);
+  border-radius: 3rem;
+  padding: 0 1rem;
+  cursor: pointer;
+  border: none;
 }
 
 .data-card:hover .link-text {
