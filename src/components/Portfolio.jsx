@@ -4,8 +4,8 @@ function Portfolio() {
   return (
     <>
       <div className="projectTitle"> My Projects.</div>
-      <section class="page-contain">
-        <a href="#projects" class="data-card">
+      <section className="page-contain">
+        <a href="#projects" className="data-card">
           <h3>01</h3>
           <h4>Portfolio Site.</h4>
           <p>My personal site using ReactJs.</p>

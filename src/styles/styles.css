@@ -28,6 +28,18 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  height: 100vh;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* A elements that don't have a class get default styles */
@@ -146,17 +158,17 @@ nav {
 .btn {
   font-size: 0.7rem;
   margin: 0 1rem 0 0;
-  background-color: rgb(8, 25, 159, 0.8);
+  background-color: rgba(0, 19, 160, 0.8);
   color: aliceblue;
   border-radius: 3rem;
   padding: 0 1rem;
   cursor: pointer;
-  border: 0.2px solid rgb(226, 255, 3);
+  border: none;
 }
 .btn:hover {
   color: black;
   background-color: aliceblue;
-  border: 0.3px solid black;
+  /* border: 0.3px solid black; */
 
   transform: translateY(-0.2rem);
 }
@@ -279,4 +291,11 @@ nav {
   100% {
     transform: translateX(0.125em);
   }
+}
+.skills {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
