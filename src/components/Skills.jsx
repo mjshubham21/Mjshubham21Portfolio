@@ -1,4 +1,10 @@
 import React from "react";
+// import skills from "./Skill";
+
+// function addSkill(skill){
+//   return(
+//   );
+// }
 function Skills() {
   return (
     <>
