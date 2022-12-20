@@ -303,6 +303,10 @@ nav {
 .content {
   height: 1em;
   width: 1em;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* .htm {
   height: 2rem;

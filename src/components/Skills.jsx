@@ -6,7 +6,7 @@ function Skills(props) {
       <section className="skills">
         <div className="card">
           <div className="content">
-            <img src={props.icon} alt="htmlIcon" />
+            <img src={props.icon} alt="Icon" />
             <p>{props.iconName}</p>
           </div>
         </div>
