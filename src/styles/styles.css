@@ -70,13 +70,9 @@ nav {
   padding: 1.1rem 0.8rem;
   /* margin-bottom: 1rem; */
   height: 1.1rem;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 189, 1) 73%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: linear-gradient(-45deg, #525aee, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
   z-index: 200;
 }
 
@@ -96,7 +92,7 @@ nav {
   margin: 0.7rem;
 }
 .itemR a:hover {
-  color: rgb(7, 253, 60);
+  color: rgb(245, 255, 140);
   cursor: pointer;
 }
 
@@ -297,7 +293,7 @@ nav {
   width: 100%;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  animation: gradient 10s ease infinite;
 }
 .skills {
   overflow: hidden;
@@ -330,5 +326,111 @@ nav {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4.6px);
   -webkit-backdrop-filter: blur(4.6px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Contact Form */
+#title-Tag-Line {
+  font-size: 20px;
+}
+
+.form {
+  background: #fff;
+  border-radius: 5px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  border-top: 5px solid #0e3721;
+  /*   z-index: 1; */
+  animation: bounce 2s infinite;
+}
+::-webkit-input-placeholder {
+  font-size: 1.3em;
+}
+
+.title {
+  display: block;
+  font-family: sans-serif;
+  margin: 10px auto 5px;
+  width: 300px;
+}
+
+.pageTitle {
+  font-size: 2em;
+  font-weight: bold;
+}
+.secondaryTitle {
+  color: grey;
+}
+
+.name {
+  background-color: #ebebeb;
+  color: white;
+}
+.name:hover {
+  border-bottom: 5px solid #0e3721;
+  height: 30px;
+  width: 380px;
+  transition: ease-in 0.7s;
+}
+
+.email {
+  background-color: #ebebeb;
+  height: 2em;
+}
+
+.email:hover {
+  border-bottom: 5px solid #0e3721;
+  height: 30px;
+  width: 380px;
+  transition: ease-in 0.7s;
+}
+
+.message {
+  background-color: #ebebeb;
+  overflow: hidden;
+  height: 10rem;
+}
+
+.message:hover {
+  border-bottom: 5px solid #0e3721;
+  height: 12em;
+  width: 380px;
+  transition: ease-in 0.7s;
+}
+
+.formEntry {
+  display: block;
+  margin: 30px auto;
+  min-width: 300px;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  transition: all 0.5s ease 0s;
+}
+
+.submit {
+  width: 200px;
+  color: white;
+  background-color: #0e3721;
+  font-size: 20px;
+}
+
+.submit:hover {
+  transform: translateY(-3px);
+  width: 300px;
+  border-radius: 0%;
+}
+
+@keyframes bounce {
+  0% {
+    tranform: translate(0, 4px);
+  }
+  50% {
+    transform: translate(0, 8px);
+  }
 }
