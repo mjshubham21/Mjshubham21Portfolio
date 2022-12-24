@@ -8,23 +8,31 @@ function Footer() {
           <a href="#"></a>
           <a href="#">
             <img
-              className="skillIcon"
+              className="footerIcon"
               src="./src/assets/linkedin2.png"
-              alt=""
+              alt="linkedIn"
             />
-          </a>
-          <a href="#">
-            <img className="skillIcon" src="./src/assets/github2.png" alt="" />
           </a>
           <a href="#">
             <img
-              className="skillIcon"
-              src="./src/assets/instagram.png"
-              alt=""
+              className="footerIcon"
+              src="./src/assets/github2.png"
+              alt="GitHub"
             />
           </a>
           <a href="#">
-            <img className="skillIcon" src="./src/assets/twitter.png" alt="" />
+            <img
+              className="footerIcon"
+              src="./src/assets/instagram.png"
+              alt="Instagram"
+            />
+          </a>
+          <a href="#">
+            <img
+              className="footerIcon"
+              src="./src/assets/twitter.png"
+              alt="Twitter"
+            />
           </a>
         </div>
 
@@ -34,9 +42,9 @@ function Footer() {
               Home
             </a>
 
-            <a href="#">About</a>
+            <a href="#about">About</a>
 
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </p>
           <p>
             @mjshubham21 Copyright &copy; {new Date().getFullYear()} All Rights
