@@ -437,3 +437,12 @@ nav {
 }
 
 /* Footer  */
+.Footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(294deg, #06f5cb, #1d06f5, #f506dd);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  height: 20vh;
+}

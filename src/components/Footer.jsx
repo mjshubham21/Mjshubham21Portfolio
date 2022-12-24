@@ -3,25 +3,34 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <footer class="footer-distributed">
-        <div class="footer-right">
+      <footer className="Footer">
+        <div className="footer-right">
+          <a href="#"></a>
           <a href="#">
-            <i class="fa fa-facebook"></i>
+            <img
+              className="skillIcon"
+              src="./src/assets/linkedin2.png"
+              alt=""
+            />
           </a>
           <a href="#">
-            <i class="fa fa-twitter"></i>
+            <img className="skillIcon" src="./src/assets/github2.png" alt="" />
           </a>
           <a href="#">
-            <i class="fa fa-linkedin"></i>
+            <img
+              className="skillIcon"
+              src="./src/assets/instagram.png"
+              alt=""
+            />
           </a>
           <a href="#">
-            <i class="fa fa-github"></i>
+            <img className="skillIcon" src="./src/assets/twitter.png" alt="" />
           </a>
         </div>
 
-        <div class="footer-left">
-          <p class="footer-links">
-            <a class="link-1" href="#">
+        <div className="footer-left">
+          <p className="footer-links">
+            <a className="link-1" href="#">
               Home
             </a>
 
