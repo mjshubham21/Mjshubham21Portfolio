@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: 200ms ease-in-out;
+  transition: 100ms ease-in;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -314,5 +314,18 @@ nav {
   align-items: center;
   height: 3rem;
   width: 2.5rem;
-  margin: 0.5rem auto;
+  margin: 1rem auto;
+}
+/* .content {
+} */
+.content:hover {
+  color: rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
