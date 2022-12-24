@@ -337,14 +337,13 @@ nav {
   background: #fff;
   border-radius: 5px;
   max-width: 480px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  margin: auto;
+  padding: 1rem;
   left: 0;
   right: 0;
   position: absolute;
-  border-top: 5px solid #0e3721;
+  border-top: 5px solid #e202ff;
+  border-bottom: 5px solid #e100fe;
   /*   z-index: 1; */
   animation: bounce 2s infinite;
 }
@@ -369,12 +368,12 @@ nav {
 
 .name {
   background-color: #ebebeb;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .name:hover {
-  border-bottom: 5px solid #0e3721;
+  border-bottom: 3px solid #b804d0;
   height: 30px;
-  width: 380px;
+  width: 350px;
   transition: ease-in 0.7s;
 }
 
@@ -384,22 +383,22 @@ nav {
 }
 
 .email:hover {
-  border-bottom: 5px solid #0e3721;
+  border-bottom: 3px solid #b804d0;
   height: 30px;
-  width: 380px;
+  width: 350px;
   transition: ease-in 0.7s;
 }
 
 .message {
   background-color: #ebebeb;
   overflow: hidden;
-  height: 10rem;
+  height: 7rem;
 }
 
 .message:hover {
-  border-bottom: 5px solid #0e3721;
-  height: 12em;
-  width: 380px;
+  border-bottom: 3px solid #b804d0;
+  height: 10em;
+  width: 350px;
   transition: ease-in 0.7s;
 }
 
@@ -416,14 +415,16 @@ nav {
 .submit {
   width: 200px;
   color: white;
-  background-color: #0e3721;
+  background-color: #0ea956;
   font-size: 20px;
 }
 
 .submit:hover {
   transform: translateY(-3px);
   width: 300px;
-  border-radius: 0%;
+  color: #4b4b4b;
+  background-color: #e00af8;
+  border-radius: 3rem;
 }
 
 @keyframes bounce {
