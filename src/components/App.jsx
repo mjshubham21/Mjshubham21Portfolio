@@ -7,16 +7,16 @@ import Skills from "./Skills";
 import skills from "./Skill";
 import Footer from "./Footer";
 
-function addSkill(skill) {
-  return (
-    <Skills
-      key={skill.id}
-      id={skill.id}
-      icon={skill.icon}
-      iconName={skill.iconName}
-    />
-  );
-}
+// function addSkill(skill) {
+//   return (
+//     <Skills
+//       key={skill.id}
+//       id={skill.id}
+//       icon={skill.icon}
+//       iconName={skill.iconName}
+//     />
+//   );
+// }
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
       <NavBar />
       <Intro />
       <Portfolio />
-      {skills.map(addSkill)}
+      <Skills />
       <Contact />
       <Footer />
     </>

@@ -300,15 +300,19 @@ nav {
   animation: gradient 15s ease infinite;
 }
 
-.content {
-  height: 1em;
-  width: 1em;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.card {
+  /* height: 1em;
+  width: 1em; */
+  display: grid;
+  grid-template-columns: repeat(5, auto);
 }
-/* .htm {
-  height: 2rem;
-  width: 20%;
-} */
+
+.skillIcon,
+.skillName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 2.5rem;
+  margin: 0.5rem auto;
+}
