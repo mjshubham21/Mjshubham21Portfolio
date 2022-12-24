@@ -337,11 +337,11 @@ nav {
   background: #fff;
   border-radius: 5px;
   max-width: 480px;
-  margin: auto;
+  margin: 1rem auto;
   padding: 1rem;
   left: 0;
   right: 0;
-  position: absolute;
+  /* position: absolute; */
   border-top: 5px solid #e202ff;
   border-bottom: 5px solid #e100fe;
   /*   z-index: 1; */
@@ -435,3 +435,5 @@ nav {
     transform: translate(0, 8px);
   }
 }
+
+/* Footer  */
