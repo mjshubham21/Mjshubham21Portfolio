@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <>
+    <section id="contact">
       <div className="wrapper">
         <form
           className="form"
@@ -22,7 +22,7 @@ function Contact() {
           <button className="submit formEntry">Submit</button>
         </form>
       </div>
-    </>
+    </section>
   );
 }
 

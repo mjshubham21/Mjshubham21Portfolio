@@ -12,6 +12,7 @@ function Footer() {
               src="/assets/linkedin2.png"
               alt="linkedIn"
             />
+            {/* https://www.linkedin.com/in/mjshubham21 */}
           </a>
           <a href="#">
             <img
