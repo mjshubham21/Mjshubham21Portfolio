@@ -10,7 +10,9 @@ function Intro() {
             <h1 className="title">Shubham Pawar</h1>
             <p className="heroData">I'm a MERN stack Developer.</p>
             <button className="btn">Contact Me</button>
-            <button className="btn">Resume</button>
+            <a href="/resume22" attributes-list download>
+              <button className="btn">Resume</button>
+            </a>
           </div>
           <div className="heroImg">
             <img className="heroGif" src={hero} alt="hero img" />
