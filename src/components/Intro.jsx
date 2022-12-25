@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../assets/hero.gif";
+import hero from "/assets/hero.gif";
 function Intro() {
   return (
     <>

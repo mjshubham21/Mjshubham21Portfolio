@@ -9,28 +9,28 @@ function Footer() {
           <a href="#">
             <img
               className="footerIcon"
-              src="./src/assets/linkedin2.png"
+              src="/assets/linkedin2.png"
               alt="linkedIn"
             />
-          </a> 
+          </a>
           <a href="#">
             <img
               className="footerIcon"
-              src="./src/assets/github2.png"
+              src="/assets/github2.png"
               alt="GitHub"
             />
           </a>
           <a href="#">
             <img
               className="footerIcon"
-              src="./src/assets/instagram.png"
+              src="/assets/instagram.png"
               alt="Instagram"
             />
           </a>
           <a href="#">
             <img
               className="footerIcon"
-              src="./src/assets/twitter.png"
+              src="/assets/twitter.png"
               alt="Twitter"
             />
           </a>
