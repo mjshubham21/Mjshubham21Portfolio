@@ -12,7 +12,7 @@ function Footer() {
               src="./src/assets/linkedin2.png"
               alt="linkedIn"
             />
-          </a>
+          </a> 
           <a href="#">
             <img
               className="footerIcon"
