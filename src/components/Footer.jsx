@@ -6,29 +6,28 @@ function Footer() {
       <footer className="Footer">
         <div className="footer-right">
           <a href="#"></a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/mjshubham21" target={"_blank"}>
             <img
               className="footerIcon"
               src="/assets/linkedin2.png"
               alt="linkedIn"
             />
-            {/* https://www.linkedin.com/in/mjshubham21 */}
           </a>
-          <a href="#">
+          <a href="https://github.com/mjshubham21" target={"_blank"}>
             <img
               className="footerIcon"
               src="/assets/github2.png"
               alt="GitHub"
             />
           </a>
-          <a href="#">
+          {/* <a href="#" target={"_blank"}>
             <img
               className="footerIcon"
               src="/assets/instagram.png"
               alt="Instagram"
             />
-          </a>
-          <a href="#">
+          </a> */}
+          <a href="https://twitter.com/mjshubham21" target={"_blank"}>
             <img
               className="footerIcon"
               src="/assets/twitter.png"
