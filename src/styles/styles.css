@@ -9,7 +9,7 @@
   padding: 0;
   box-sizing: border-box;
   transition: 100ms ease-in;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -117,9 +117,15 @@ nav {
   height: 50vh;
 }
 
+.title {
+  margin: 0.5rem 0 !important;
+  line-height: 2.5rem;
+}
+
 .heroText {
-  margin-left: 10rem;
-  line-height: 1.3rem;
+  margin-left: 9rem;
+  line-height: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .heroText p:hover {
