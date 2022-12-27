@@ -448,10 +448,16 @@ nav {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: linear-gradient(294deg, #06f5cb, #1d06f5, #f506dd);
-  background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
+  /* background: linear-gradient(294deg, #06f5cb, #1d06f5, #f506dd);
+  background-size: 150% 150%;
+  animation: gradient-animation 10s ease-in infinite; */
   height: 20vh;
+  background: linear-gradient(232deg, #36e8ba, #0011ff, #ff00d4);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 27s ease infinite;
+  -moz-animation: AnimationName 27s ease infinite;
+  animation: AnimationName 27s ease infinite;
 }
 
 .footer-right {
@@ -474,9 +480,9 @@ nav {
 }
 .footer-left {
   opacity: 0.5;
+  color: rgb(54, 56, 58);
   margin-bottom: 1rem;
 }
 .footer-left:hover {
   opacity: 1;
-  color: white;
 }
