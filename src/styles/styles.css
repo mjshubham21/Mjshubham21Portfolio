@@ -453,11 +453,11 @@ nav {
   animation: gradient-animation 10s ease-in infinite; */
   height: 20vh;
   background: linear-gradient(232deg, #36e8ba, #0011ff, #ff00d4);
-  background-size: 600% 600%;
+  background-size: 400% 300%;
 
-  -webkit-animation: AnimationName 27s ease infinite;
-  -moz-animation: AnimationName 27s ease infinite;
-  animation: AnimationName 27s ease infinite;
+  -webkit-animation: AnimationName 5s ease-in infinite;
+  -moz-animation: AnimationName 5s ease-in infinite;
+  animation: AnimationName 5s ease-in infinite;
 }
 
 .footer-right {
