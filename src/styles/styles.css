@@ -446,6 +446,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   background: linear-gradient(294deg, #06f5cb, #1d06f5, #f506dd);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
@@ -456,16 +457,25 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 1rem;
+  margin: auto;
 }
+
 .footerIcon {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 3rem;
   width: 2.5rem;
-  margin: 1rem auto;
+  margin: 1rem 2rem;
 }
 .footerIcon:hover {
-  transform: rotateY(-1rem);
+  transform: translateY(-0.5rem);
+}
+.footer-left {
+  opacity: 0.5;
+  margin-bottom: 1rem;
+}
+.footer-left:hover {
+  opacity: 1;
+  color: white;
 }

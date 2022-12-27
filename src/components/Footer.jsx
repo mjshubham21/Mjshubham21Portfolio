@@ -6,28 +6,40 @@ function Footer() {
       <footer className="Footer">
         <div className="footer-right">
           <a href="#"></a>
-          <a href="https://www.linkedin.com/in/mjshubham21" target={"_blank"}>
+          <a
+            title="linkedin"
+            href="https://www.linkedin.com/in/mjshubham21"
+            target={"_blank"}
+          >
             <img
               className="footerIcon"
               src="/assets/linkedin2.png"
               alt="linkedIn"
             />
           </a>
-          <a href="https://github.com/mjshubham21" target={"_blank"}>
+          <a
+            title="github"
+            href="https://github.com/mjshubham21"
+            target={"_blank"}
+          >
             <img
               className="footerIcon"
               src="/assets/github2.png"
               alt="GitHub"
             />
           </a>
-          {/* <a href="#" target={"_blank"}>
+          {/* <a title="instagram" href="#" target={"_blank"}>
             <img
               className="footerIcon"
               src="/assets/instagram.png"
               alt="Instagram"
             />
           </a> */}
-          <a href="https://twitter.com/mjshubham21" target={"_blank"}>
+          <a
+            title="twitter"
+            href="https://twitter.com/mjshubham21"
+            target={"_blank"}
+          >
             <img
               className="footerIcon"
               src="/assets/twitter.png"
@@ -35,17 +47,7 @@ function Footer() {
             />
           </a>
         </div>
-
         <div className="footer-left">
-          <p className="footer-links">
-            <a className="link-1" href="#">
-              Home
-            </a>
-
-            <a href="#about">About</a>
-
-            <a href="#contact">Contact</a>
-          </p>
           <p>
             @mjshubham21 Copyright &copy; {new Date().getFullYear()} All Rights
             Reserved.
