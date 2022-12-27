@@ -29,7 +29,7 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   height: 100vh;
-  max-width: 100%;
+  max-width: 100% !important;
 }
 @keyframes gradient {
   0% {
@@ -146,6 +146,7 @@ nav {
 }
 .heroImg {
   display: flex;
+  right: 0;
   align-items: center;
   justify-content: center;
   margin-right: 25rem;
