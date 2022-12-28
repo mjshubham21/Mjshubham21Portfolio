@@ -13,7 +13,7 @@ function Intro() {
               Contact Me
             </button> */}
             <a href="/resume22" attributes-list download>
-              <button className="btn">Resume</button>
+              <button className="btn resume">Resume</button>
             </a>
           </div>
           <div className="heroImg">
