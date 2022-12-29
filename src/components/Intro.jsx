@@ -4,7 +4,7 @@ function Intro() {
   return (
     <>
       <main>
-        <section id="intro" className="hero">
+        <section data-aos="fade-right" id="intro" className="hero">
           <div className="heroText">
             <p className="topData">Hey, I'm</p>
             <h1 className="title">Shubham Pawar</h1>
