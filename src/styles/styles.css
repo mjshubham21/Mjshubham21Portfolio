@@ -161,7 +161,13 @@ nav {
 
 .resume {
   transition: ease-in 200ms !important;
+  text-decoration: none;
+  padding: 0.2rem 0.7rem !important;
 }
+.View {
+  display: none;
+}
+
 .resume:hover {
   padding-right: 1rem !important;
   padding-left: 7rem !important;

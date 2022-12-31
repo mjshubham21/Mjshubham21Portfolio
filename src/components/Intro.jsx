@@ -12,8 +12,15 @@ function Intro() {
             {/* <button id="contact" className="btn">
               Contact Me
             </button> */}
-            <a href="/resume22" attributes-list download>
+            {/* <a href="/resume22" attributes-list download>
               <button className="btn resume">Resume</button>
+            </a> */}
+            <a
+              className="btn resume"
+              href="./assets/resume22.pdf"
+              target="_blank"
+            >
+              <span className="View">View</span> Resume{" "}
             </a>
           </div>
           <div className="heroImg">
