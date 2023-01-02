@@ -199,8 +199,8 @@ nav {
   align-items: center;
   justify-content: center;
   background: #e7f3f1;
-  border: 0.75em solid white;
-  padding: 2em;
+  /* border: 0.75em solid white; */
+  padding: 1em;
 }
 
 .projectTitle {
@@ -229,7 +229,7 @@ nav {
   font-weight: 600;
   line-height: 1;
   padding-bottom: 0.5em;
-  margin: 0 0 0.142857143em;
+  margin: 0 0 0.142em;
   border-bottom: 2px solid #753bbd;
   transition: color 0.45s ease, border 0.45s ease;
 }
@@ -240,7 +240,7 @@ nav {
   font-weight: 700;
   line-height: 1;
   letter-spacing: 0.1em;
-  margin: 0 0 1.777777778em;
+  margin: 0 0 1.77em;
   transition: color 0.45s ease;
 }
 
