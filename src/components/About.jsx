@@ -6,14 +6,10 @@ function About() {
       <section id="about">
         <div className="container">
           <p>
-            On this website's main page you will find everything
-            lifestyle-related - fashion, food, beauty, home decor, and more. But
-            it's the About section that introduces you to the team that makes
-            this website an endless source of inspiration. The page introduces
-            founder Emily Schuman, as well as her blog, books, and fashion
-            collection. Want to stay in touch? No problem - the page also
-            features useful links to her social media pages, as well as her
-            online shop.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+            explicabo, voluptates adipisci porro asperiores nesciunt optio
+            consequatur minima facere debitis voluptas inventore unde
+            repellendus repellat sed vitae ex! Excepturi, magni?
           </p>
         </div>
       </section>

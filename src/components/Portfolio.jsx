@@ -5,7 +5,7 @@ function Portfolio() {
     <section data-aos="zoom-in-down" id="projects">
       <div className="projectTitle"> My Projects.</div>
       <section className="page-contain">
-        <a data-aos="flip-right" href="#projects" className="data-card">
+        <div data-aos="flip-right" className="data-card">
           <h3>01</h3>
           <h4>Portfolio Site.</h4>
           <p>My personal site using ReactJs.</p>
@@ -15,7 +15,7 @@ function Portfolio() {
           >
             <button className="gitbtn">GitHub</button>{" "}
           </a>
-        </a>
+        </div>
       </section>
     </section>
   );
