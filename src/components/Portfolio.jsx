@@ -2,10 +2,10 @@ import React from "react";
 
 function Portfolio() {
   return (
-    <section data-aos="zoom-out-up" id="projects">
+    <section data-aos="zoom-in-down" id="projects">
       <div className="projectTitle"> My Projects.</div>
       <section className="page-contain">
-        <a href="#projects" className="data-card">
+        <a data-aos="flip-right" href="#projects" className="data-card">
           <h3>01</h3>
           <h4>Portfolio Site.</h4>
           <p>My personal site using ReactJs.</p>
