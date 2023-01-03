@@ -20,7 +20,9 @@ function NavBar() {
               <a href="#contact">Contact Me</a>
             </li>
             <li>
-              <a href="/about">About Me</a>
+              <a href="/about" target="_blank">
+                About Me
+              </a>
             </li>
           </ul>
         </div>
