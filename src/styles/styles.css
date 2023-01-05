@@ -502,7 +502,7 @@ nav {
 }
 
 @media (max-width: 415px) {
-  .nav {
+  nav {
     display: none;
   }
   /* hero section */
