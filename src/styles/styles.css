@@ -494,3 +494,28 @@ nav {
 .footer-left:hover {
   opacity: 1;
 }
+
+@media (max-width: 450px) {
+  .itemR {
+    display: none;
+  }
+  .hero {
+    flex-direction: column;
+    height: 70vh;
+    padding-top: 1rem;
+  }
+  .heroText {
+    transform: scale(0.9);
+    margin-left: 3rem;
+  }
+  .heroImg {
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    padding: 3rem;
+    height: 30vh;
+    width: 50vw !important;
+  }
+  .heroGif {
+    transform: scale(0.7);
+  }
+} /*450px   */
