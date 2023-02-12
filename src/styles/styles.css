@@ -517,4 +517,12 @@ nav {
     height: 40vh;
     width: 80vw;
   }
+
+  .skills {
+    height: 80vh;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
 } /*450px   */
