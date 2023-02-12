@@ -519,10 +519,15 @@ nav {
   }
 
   .skills {
-    height: 80vh;
+    height: 90vh;
+    margin-bottom: 1rem;
   }
   .card {
     display: grid;
     grid-template-columns: repeat(2, auto);
+  }
+  .skillIcon,
+  .skillName {
+    transform: scale(0.85);
   }
 } /*450px   */
