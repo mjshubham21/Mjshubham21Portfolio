@@ -1,26 +1,26 @@
 import React from "react";
 import "../styles/styles.css";
-
+import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <>
       <nav>
         <div className="itemL">
-          <a href="#">mjshubham21</a>
+          <Link to="#">mjshubham21</a>
         </div>
         <div className="itemR">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <Link to="#">Home</a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <Link to="#projects">Projects</a>
             </li>
             <li>
-              <a href="#contact">Contact Me</a>
+              <Link to="#contact">Contact Me</a>
             </li>
             <li>
-              <a href="/about" target="_blank">
+              <Link to="/about" target="_blank">
                 About Me
               </a>
             </li>
