@@ -6,23 +6,23 @@ function NavBar() {
     <>
       <nav>
         <div className="itemL">
-          <Link to="#">mjshubham21</a>
+          <Link to="#">mjshubham21</Link>
         </div>
         <div className="itemR">
           <ul>
             <li>
-              <Link to="#">Home</a>
+              <Link to="#">Home</Link>
             </li>
             <li>
-              <Link to="#projects">Projects</a>
+              <Link to="#projects">Projects</Link>
             </li>
             <li>
-              <Link to="#contact">Contact Me</a>
+              <Link to="#contact">Contact Me</Link>
             </li>
             <li>
               <Link to="/about" target="_blank">
                 About Me
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
