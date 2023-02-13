@@ -19,15 +19,15 @@ function App() {
   return (
     <>
       <Router>
-        <NavBar />
         <Routes>
-          <Route path="/about" element={<About />}></Route>
+          <Route exact path="/" element={<NavBar />}></Route>
+          <Route exact path="/about" element={<About />}></Route>
+          <Intro />
+          <Portfolio />
+          <Skills />
+          <Contact />
+          <Footer />
         </Routes>
-        <Intro />
-        <Portfolio />
-        <Skills />
-        <Contact />
-        <Footer />
       </Router>
     </>
   );
