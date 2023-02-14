@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../styles/styles.css";
 import { Link } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
 function NavBar() {
+  const navRef = useRef();
+  const showNavBar = () => {
+    navRef.current.classList.toggle("responsive_nav");
+  };
   return (
     <>
-      <nav>
+      <nav ref={navRef}>
         <div className="itemL">
           <Link to="#">mjshubham21</Link>
         </div>
@@ -27,6 +32,12 @@ function NavBar() {
           </ul>
         </div>
       </nav>
+      <button className="nav-btn nav-clise-btn" onClick={showNavBar}>
+        <FaBars />
+      </button>
+      <button className="nav-btn" onClick={showNavBar}>
+        <FaTimes />
+      </button>
     </>
   );
 }
