@@ -97,12 +97,15 @@ nav {
   cursor: pointer;
 }
 
-nav .nav-btn {
+.nav-btn {
   padding: 0.5rem;
   cursor: pointer;
   background: transparent;
   border: none;
   outline: none;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
   visibility: hidden;
   opacity: 0;
   font-size: 1.5rem;
@@ -541,6 +544,7 @@ nav .nav-btn {
   }
 
   .itemL a {
+    /* Logo */
     position: absolute;
     top: 2rem;
     left: 2rem;
@@ -548,6 +552,7 @@ nav .nav-btn {
   }
 
   .itemR ul {
+    /*Nav items*/
     display: flex;
     flex-direction: column;
     align-self: center;
