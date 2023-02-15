@@ -25,11 +25,11 @@ function NavBar() {
             <li>
               <Link to="#contact">Contact Me</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/about" target="_blank">
                 About Me
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
