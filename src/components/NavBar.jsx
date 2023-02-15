@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import "../styles/styles.css";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
+
 function NavBar() {
   const navRef = useRef();
   const showNavBar = () => {
@@ -32,11 +33,11 @@ function NavBar() {
           </ul>
         </div>
       </nav>
-      <button className="nav-btn nav-clise-btn" onClick={showNavBar}>
-        <FaBars />
+      <button className="nav-btn nav-close-btn" onClick={showNavBar}>
+        <FaTimes />
       </button>
       <button className="nav-btn" onClick={showNavBar}>
-        <FaTimes />
+        <FaBars />
       </button>
     </>
   );
