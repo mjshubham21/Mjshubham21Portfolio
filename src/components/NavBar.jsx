@@ -1,18 +1,26 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "../styles/styles.css";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 function NavBar() {
   const navRef = useRef();
+  // const showNavBar = () => {
+  //   navRef.current.classList.toggle("responsive_nav");
+  //   navRef.current.classList.toggle("responsive_nav");
+  //   navRef.current.classList.toggle("nav-closed");
+  //   navRef.current.classList.toggle("nav-open");
+  // };
+  const [isOpen, setIsOpen] = useState(false);
   const showNavBar = () => {
-    // navRef.current.classList.toggle("responsive_nav");
-    navRef.current.classList.toggle("responsive_nav");
-    navRef.current.classList.toggle("nav-closed");
+    setIsOpen(!isOpen);
   };
   return (
     <>
-      <nav className="mobile-nav nav-closed" ref={navRef}>
+      <nav
+        className={`mobile-nav ${isOpen ? "responsive_nav" : ""}`}
+        ref={navRef}
+      >
         <div className="itemL">
           <Link to="#">mjshubham21</Link>
         </div>
