@@ -110,6 +110,16 @@ nav {
   opacity: 0;
   font-size: 1.5rem;
 }
+
+/* chatGPT code */
+.nav-closed {
+  transform: translateY(-100vh);
+}
+
+.responsive_nav {
+  transform: none;
+}
+/* till here */
 /* hero section */
 .hero {
   /* padding: 3rem; */
@@ -531,12 +541,14 @@ nav {
   nav .responsive_nav {
     transform: none;
   }
-
+  .nav-open {
+    z-index: 9999;
+  }
   .nav-close-btn {
     position: absolute;
     top: 2rem;
     right: 2rem;
-    z-index: 9999;
+    z-index: 999;
   }
 
   nav a {

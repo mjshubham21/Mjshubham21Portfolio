@@ -6,11 +6,13 @@ import { FaBars, FaTimes } from "react-icons/fa";
 function NavBar() {
   const navRef = useRef();
   const showNavBar = () => {
+    // navRef.current.classList.toggle("responsive_nav");
     navRef.current.classList.toggle("responsive_nav");
+    navRef.current.classList.toggle("nav-closed");
   };
   return (
     <>
-      <nav ref={navRef}>
+      <nav className="mobile-nav nav-closed" ref={navRef}>
         <div className="itemL">
           <Link to="#">mjshubham21</Link>
         </div>
@@ -25,11 +27,11 @@ function NavBar() {
             <li>
               <Link to="#contact">Contact Me</Link>
             </li>
-            {/* <li>
+            <li>
               <Link to="/about" target="_blank">
                 About Me
               </Link>
-            </li> */}
+            </li>
           </ul>
         </div>
       </nav>
