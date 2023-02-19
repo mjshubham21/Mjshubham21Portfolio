@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import "../styles/styles.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 function NavBar() {
@@ -11,7 +11,7 @@ function NavBar() {
   };
   return (
     <>
-      <nav
+      {/* <nav
         className={`mobile-nav ${isOpen ? "responsive_nav" : ""}`}
         ref={navRef}
       >
@@ -33,6 +33,47 @@ function NavBar() {
               <Link to="/about" target="_blank">
                 About Me
               </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <button className="nav-btn" onClick={showNavBar}>
+        <FaBars />
+      </button>
+      <button className="nav-btn nav-close-btn" onClick={showNavBar}>
+        <FaTimes />
+      </button>
+    </> */}
+      <nav
+        className={`mobile-nav ${isOpen ? "responsive_nav" : ""}`}
+        ref={navRef}
+      >
+        <div className="itemL">
+          <NavLink to="/" exact activeClassName="active">
+            mjshubham21
+          </NavLink>
+        </div>
+        <div className="itemR">
+          <ul>
+            <li>
+              <NavLink to="/" exact activeClassName="active">
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/projects" activeClassName="active">
+                Projects
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact" activeClassName="active">
+                Contact Me
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/about" activeClassName="active">
+                About Me
+              </NavLink>
             </li>
           </ul>
         </div>
