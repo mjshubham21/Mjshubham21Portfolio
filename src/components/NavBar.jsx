@@ -45,11 +45,14 @@ function NavBar() {
           </ul>
         </div>
       </nav>
-      <button className="nav-btn" onClick={showNavBar}>
+      {/* <button className="nav-btn" onClick={showNavBar}>
         <FaBars />
       </button>
       <button className="nav-btn nav-close-btn" onClick={showNavBar}>
         <FaTimes />
+      </button> */}
+      <button className="nav-btn" onClick={showNavBar}>
+        {isOpen ? <FaTimes /> : <FaBars />}
       </button>
     </>
   );
