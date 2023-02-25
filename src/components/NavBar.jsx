@@ -1,23 +1,16 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import "../styles/styles.css";
 import { NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 function NavBar() {
-  // const navRef = useRef();
-  // navRef.current.classList.toggle("responsive_nav");
-  // navRef.current.ClassList.toggle("responsive_nav");
-  // navRef.current.ClassList.toggle("nav-closed");
   const [isOpen, setIsOpen] = useState(false);
   const showNavBar = () => {
     setIsOpen(!isOpen);
   };
   return (
     <>
-      <nav
-        className={`mobile-nav ${isOpen ? "responsive_nav" : ""}`}
-        // ref={navRef}
-      >
+      <nav className={`mobile-nav ${isOpen ? "responsive_nav" : ""}`}>
         <div className="itemL">
           <NavLink to="/" exact activeClassName="active">
             mjshubham21
@@ -54,9 +47,6 @@ function NavBar() {
       <button className="nav-btn nav-close-btn" onClick={showNavBar}>
         <FaTimes />
       </button>
-      {/* <button className="nav-btn" onClick={showNavBar}>
-        {isOpen ? <FaTimes /> : <FaBars />}
-      </button> */}
     </>
   );
 }
