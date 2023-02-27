@@ -12,16 +12,12 @@ function NavBar() {
     <>
       <nav className={`mobile-nav ${isOpen ? "responsive_nav" : ""}`}>
         <div className="itemL">
-          <NavLink to="/" exact>
-            mjshubham21
-          </NavLink>
+          <NavLink to="/">mjshubham21</NavLink>
         </div>
         <div className="itemR">
           <ul>
             <li>
-              <NavLink to="/" exact>
-                Home
-              </NavLink>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
               <NavLink to="/projects">Projects</NavLink>

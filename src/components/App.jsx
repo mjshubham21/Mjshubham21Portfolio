@@ -21,7 +21,6 @@ function App() {
       <Router>
         <NavBar />
         <Routes>
-          {/* <Route exact path="/" element={<NavBar />}></Route> */}
           <Route exact path="/about" element={<About />}></Route>
         </Routes>
         <Intro />
