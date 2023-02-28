@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../styles/styles.css";
 import { NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-
+import { Link, animateScroll as scroll } from "react-scroll";
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   const toggleNavbar = () => {
@@ -17,16 +17,52 @@ function NavBar() {
         <div className="itemR">
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              {/* <NavLink to="/">Home</NavLink> */}
+              <Link
+                to="intro"
+                spy={true}
+                smooth={true}
+                duration={500}
+                offset={-70}
+              >
+                Home
+              </Link>
             </li>
             <li>
-              <NavLink to="/projects">Projects</NavLink>
+              {/* <NavLink to="/projects">Projects</NavLink> */}
+              <Link
+                to="projects"
+                spy={true}
+                smooth={true}
+                duration={500}
+                offset={-70}
+              >
+                Projects
+              </Link>
             </li>
             <li>
-              <NavLink to="/contact">Contact Me</NavLink>
+              {/* <NavLink to="/contact">Contact Me</NavLink> */}
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={500}
+                offset={-70}
+              >
+                Contact
+              </Link>
             </li>
             <li>
-              <NavLink to="/about">About Me</NavLink>
+              {/* <NavLink to="/about">About Me</NavLink> */}
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={500}
+                offset={-70}
+              >
+                About Me
+              </Link>
             </li>
           </ul>
         </div>

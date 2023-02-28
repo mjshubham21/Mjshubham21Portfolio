@@ -520,6 +520,7 @@ nav {
 
 @media (max-width: 450px) {
   .nav-btn {
+    position: fixed;
     visibility: visible;
     opacity: 1;
     z-index: 999;
