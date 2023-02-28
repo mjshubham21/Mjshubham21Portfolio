@@ -112,7 +112,6 @@ nav {
   z-index: 2;
 }
 
-/* chatGPT code */
 .nav-closed {
   transform: translateY(-100vh);
 }
@@ -120,7 +119,7 @@ nav {
 .responsive_nav {
   transform: none;
 }
-/* till here */
+
 /* hero section */
 .hero {
   /* padding: 3rem; */
@@ -544,7 +543,7 @@ nav {
     transform: none;
   }
   .nav-open {
-    z-index: 9999;
+    z-index: 989;
   }
   .nav-close-btn {
     position: absolute;
@@ -563,6 +562,8 @@ nav {
     top: 2rem;
     left: 2rem;
     font-size: 1rem;
+    z-index: 9999;
+    color: black;
   }
 
   .itemR ul {
@@ -577,7 +578,7 @@ nav {
   .hero {
     flex-direction: column;
     height: 70vh;
-    padding-top: 1rem;
+    padding-top: 3rem;
   }
   .heroText {
     transform: scale(0.9);
@@ -591,6 +592,7 @@ nav {
   .heroGif {
     height: 40vh;
     width: 80vw;
+    margin-bottom: 3rem;
   }
 
   .skills {
