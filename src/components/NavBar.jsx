@@ -3,10 +3,17 @@ import "../styles/styles.css";
 import { NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link, animateScroll as scroll } from "react-scroll";
+
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
+  };
+
+  const handleClick = () => {
+    if (isOpen) {
+      toggleNavbar();
+    }
   };
   return (
     <>
@@ -24,6 +31,7 @@ function NavBar() {
                 smooth={true}
                 duration={500}
                 offset={-70}
+                onClick={handleClick}
               >
                 Home
               </Link>
@@ -36,6 +44,7 @@ function NavBar() {
                 smooth={true}
                 duration={500}
                 offset={-70}
+                onClick={handleClick}
               >
                 Projects
               </Link>
@@ -48,6 +57,7 @@ function NavBar() {
                 smooth={true}
                 duration={500}
                 offset={-70}
+                onClick={handleClick}
               >
                 Contact
               </Link>
@@ -60,6 +70,7 @@ function NavBar() {
                 smooth={true}
                 duration={500}
                 offset={-70}
+                onClick={handleClick}
               >
                 About Me
               </Link>
