@@ -20,11 +20,9 @@ function App() {
     <>
       <Router>
         <NavBar />
-        <Routes>
-          <Route exact path="/about" element={<About />}></Route>
-        </Routes>
         <Intro />
         <Portfolio />
+        <About />
         <Skills />
         <Contact />
         <Footer />
