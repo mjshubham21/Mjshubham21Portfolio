@@ -4,7 +4,7 @@ import hero2 from "/assets/hero2.png";
 function About() {
   return (
     <>
-      <section id="about">
+      <section data-aos="fade-down-right" id="about">
         <h3 className="about-h3">About Me</h3>
         <div className="about">
           <img className="about-img" src={hero2} alt="hero 2" />
