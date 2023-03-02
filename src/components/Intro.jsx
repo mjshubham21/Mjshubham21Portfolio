@@ -9,15 +9,9 @@ function Intro() {
             <p className="topData">Hey, I'm</p>
             <h1 className="title">Shubham Pawar</h1>
             <p className="heroData">I'm a MERN stack Developer.</p>
-            {/* <button id="contact" className="btn">
-              Contact Me
-            </button> */}
-            {/* <a href="/resume22" attributes-list download>
-              <button className="btn resume">Resume</button>
-            </a> */}
             <a
               className="btn resume"
-              href="./assets/resume22.pdf"
+              href="./assets/resume23.pdf"
               target="_blank"
             >
               <span className="View">View</span> Resume{" "}
