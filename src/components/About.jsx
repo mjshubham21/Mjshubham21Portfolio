@@ -10,7 +10,7 @@ function About() {
           <img className="about-img" src={hero2} alt="hero 2" />
           <p>
             {" "}
-            Hey I'm a Web Developer mainly foucused on Front End and polishing
+            Hey I'm a Web Developer currently foucused on Front End and polishing
             Backend skills... <br />I am currently pursuing Master's in Computer
             Science at Pune University. I finished learning basic MERN stack
             development in just 73 days, I've documented my learning jounrey on
