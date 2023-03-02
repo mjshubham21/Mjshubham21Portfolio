@@ -12,9 +12,11 @@ function About() {
             {" "}
             Hey I'm a Web Developer mainly foucused on Front End and polishing
             Backend skills... <br />I am currently pursuing Master's in Computer
-            Science at Pune University. I finished leaning basic MERN stack
+            Science at Pune University. I finished learning basic MERN stack
             development in just 73 days, I've documented my learning jounrey on
-            Linkedin, do checkout...
+            Linkedin, do checkout... <br />
+            I'm constantly learning new features and technologies at a daily
+            basis.
           </p>
         </div>
       </section>
