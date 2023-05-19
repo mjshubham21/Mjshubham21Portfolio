@@ -11,7 +11,7 @@ function Intro() {
             <p className="heroData">I'm a MERN stack Developer.</p>
             <a
               className="btn resume"
-              href="./assets/shubham_pawar_resume.pdf"
+              href="./assets/Shubham_Pawar_Resume_23.pdf"
               target="_blank"
             >
               <span className="View">View</span> Resume{" "}
